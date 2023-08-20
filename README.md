@@ -1,4 +1,11 @@
-<h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
+<h2 align="left">Hello! I'm Manav Khadka, an Electronics and Communication Engineer. I completed my degree in August 2022.
+
+I work as a Fullstack Developer with a focus on technologies like JavaScript, TypeScript, React, and Next.js. At Ayat Digital, I'm also responsible for the backend using ASP.NET Core.
+
+Besides coding, I'm passionate about Data Science. Currently, I'm an AI and Autonomous Engineer at Baliyo Ventures. I'm also proud to be a co-founder of Baliyo Ventures.
+
+My journey is all about striving for excellence, learning, and pushing boundaries. I'm dedicated to making an impact in the tech world and beyond.</h2>
+
 
 ###
 

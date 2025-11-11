@@ -1,25 +1,28 @@
-<!-- Profile Header -->
-<h1 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px" />
-  Hey there, I'm <span style="color:#7DF9FF;">Manav Khadka</span> 👨‍💻
-</h1>
+<!-- Header Wave -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=160&section=header&text=Manav%20Khadka&fontSize=48&fontColor=FFFFFF&desc=Fullstack%20Developer%20%7C%20AI%20%26%20Autonomous%20Engineer&descSize=16&descAlignY=60&animation=fadeIn&theme=tokyonight" />
+</div>
+
+<!-- Greeting -->
+<h3 align="center">👋 Hey there! I'm <b>Manav Khadka</b></h3>
 
 <p align="center">
-  🚀 Co-Founder & Software Head at <a href="https://baliyo.ventures" target="_blank"><b>Baliyo Ventures Pvt. Ltd.</b></a><br/>
-  🎓 Electronics & Communication Engineer | Fullstack Developer | AI & Autonomous Systems Enthusiast
+  🎓 <b>Electronics & Communication Engineer</b><br/>
+  🚀 <b>Co-Founder & Software Head at Baliyo Ventures Pvt. Ltd.</b><br/>
+  💻 Passionate about <b>Fullstack Development, AI, and Autonomous Systems</b><br/>
 </p>
 
 ---
 
 ### 🧠 About Me  
-💡 I’m a **Fullstack Developer** specializing in **JavaScript, TypeScript, React, Next.js**, and **ASP.NET Core**.  
-⚙️ Passionate about **AI**, **Data Science**, and building intelligent systems that drive impact.  
-🚀 Currently leading the **software team at Baliyo Ventures** (since Aug 2022).  
-🌱 Always learning, innovating, and pushing boundaries in tech.  
+💡 I’m a <b>Fullstack Developer</b> specializing in **JavaScript, TypeScript, React, Next.js**, and **ASP.NET Core**.  
+⚙️ I’m currently leading the software team at **Baliyo Ventures** (since Aug 2022).  
+📊 I explore intersections of **AI, Robotics, and Data** to build innovative systems.  
+🌱 Continuous learner — driven by curiosity and innovation.  
 
 ---
 
-### ⚡ Tech Stack
+### ⚙️ Tech Stack
 <div align="center">
 
 #### 💻 Frontend
@@ -28,28 +31,36 @@
 #### ⚙️ Backend & Databases
 <img src="https://skillicons.dev/icons?i=dotnet,nodejs,express,postgresql,mongodb,prisma,redis" />
 
-#### 🤖 AI / Data / Tools
-<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,git,docker,postman,linux" />
+#### 🤖 AI / Tools / Others
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,git,docker,postman,linux" />
 
 </div>
 
 ---
 
-### 📈 GitHub Stats & Activity
+### 📊 GitHub Insights
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=manavkhadka0&show_icons=true&theme=radical&hide_border=false" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=manavkhadka0&theme=radical&hide_border=false" height="165" alt="Streak Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=manavkhadka0&show_icons=true&theme=dracula&hide_border=false" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=manavkhadka0&layout=compact&theme=dracula&hide_border=false" height="165" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manavkhadka0&layout=compact&theme=radical&hide_border=false" height="165" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=manavkhadka0&theme=dracula&hide_border=false" height="165" alt="GitHub Streak" />
 </div>
 
 ---
 
-### ✨ Dynamic Touch
+### 🧩 Contribution Fun
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=600&lines=Fullstack+Developer;AI+%26+Autonomous+Engineer;Co-Founder+@+Baliyo+Ventures;Electronics+%26+Communication+Engineer;Building+the+Future+with+Code+💡" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph.svg">
+  </picture>
+
+  <br/>
+
+  <img src="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/snake.svg" alt="Snake animation" />
 </div>
 
 ---
@@ -59,23 +70,18 @@
   <a href="mailto:manavkhadka0@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="30"/></a>
   <a href="https://linkedin.com/in/manavkhadka0"><img src="https://skillicons.dev/icons?i=linkedin" height="30"/></a>
   <a href="https://github.com/manavkhadka0"><img src="https://skillicons.dev/icons?i=github" height="30"/></a>
-  <a href="https://twitter.com/manavkhadka_"><img src="https://skillicons.dev/icons?i=twitter" height="30"/></a>
-  <a href="https://manavkhadka.com"><img src="https://skillicons.dev/icons?i=wordpress" height="30"/></a>
+  <a href="https://twitter.com/manavkhadka0"><img src="https://skillicons.dev/icons?i=twitter" height="30"/></a>
 </p>
 
 ---
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=manavkhadka0&theme=dracula&no-frame=false&no-bg=false&margin-w=10" alt="Trophies" />
+  <img src="https://komarev.com/ghpvc/?username=manavkhadka0&style=for-the-badge&color=blueviolet" alt="Profile Views" />
+  <img src="https://github-profile-trophy.vercel.app/?username=manavkhadka0&theme=dracula&no-frame=false&margin-w=10" alt="Trophies" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=manavkhadka0&style=for-the-badge&color=blueviolet" alt="Profile Views" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&reversal=true&fontSize=70&fontColor=FFFFFF&theme=tokyonight" />
 </div>
-
----
-
-### 🏁 Quote of the Day  
-> “The best way to predict the future is to invent it.” — Alan Kay

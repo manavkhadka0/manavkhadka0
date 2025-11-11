@@ -55,7 +55,7 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph-dark.svg">
+    [<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph-dark.svg">](https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/refs/heads/main/output/pacman-contribution-graph.svg)
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph.svg">
     <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph.svg">
   </picture>

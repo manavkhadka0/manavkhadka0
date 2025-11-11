@@ -1,8 +1,3 @@
-<!-- Header Wave -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=160&section=header&text=Manav%20Khadka&fontSize=48&fontColor=FFFFFF&desc=Fullstack%20Developer%20%7C%20AI%20%26%20Autonomous%20Engineer&descSize=16&descAlignY=60&animation=fadeIn&theme=tokyonight" />
-</div>
-
 <!-- Greeting -->
 <h3 align="center">👋 Hey there! I'm <b>Manav Khadka</b></h3>
 
@@ -46,21 +41,6 @@
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=manavkhadka0&theme=dracula&hide_border=false" height="165" alt="GitHub Streak" />
-</div>
-
----
-
-### 🧩 Contribution Fun
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/pacman-contribution-graph.svg">
-  </picture>
-
-  <br/>
-
-  <img src="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/output/snake.svg" alt="Snake animation" />
 </div>
 
 ---

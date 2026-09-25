@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="215" viewBox="0 0 350 215" role="img" aria-label="$ git stats --all">
+<style>
+  text{font-family:'Fira Code','JetBrains Mono',Consolas,monospace}
+  .t{fill:#A277FF;font-size:16px;font-weight:700}
+  .l{fill:#C9D1D9;font-size:13px}
+  .v{fill:#61FFCA;font-size:13px;font-weight:700}
+  .m{fill:#8B949E;font-size:11px}
+  .fade{opacity:0;animation:in .6s ease-out forwards}
+  @keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
+</style>
+<rect x="0.5" y="0.5" width="349" height="214" rx="10" fill="#0D1117" stroke="#30363D"/>
+<circle cx="20" cy="20" r="5" fill="#FF5F56"/><circle cx="36" cy="20" r="5" fill="#FFBD2E"/><circle cx="52" cy="20" r="5" fill="#27C93F"/>
+<text x="70" y="25" class="t">$ git stats --all</text>
+<g class="fade" style="animation-delay:0ms">
+  <text x="24" y="62" class="l">⭐  Stars earned</text>
+  <text x="326" y="62" class="v" text-anchor="end">8</text>
+</g>
+<g class="fade" style="animation-delay:150ms">
+  <text x="24" y="87" class="l">🔥  Total commits</text>
+  <text x="326" y="87" class="v" text-anchor="end">2.2k</text>
+</g>
+<g class="fade" style="animation-delay:300ms">
+  <text x="24" y="112" class="l">🔀  Pull requests</text>
+  <text x="326" y="112" class="v" text-anchor="end">17</text>
+</g>
+<g class="fade" style="animation-delay:450ms">
+  <text x="24" y="137" class="l">🐞  Issues opened</text>
+  <text x="326" y="137" class="v" text-anchor="end">0</text>
+</g>
+<g class="fade" style="animation-delay:600ms">
+  <text x="24" y="162" class="l">📦  Public repos</text>
+  <text x="326" y="162" class="v" text-anchor="end">70</text>
+</g>
+<g class="fade" style="animation-delay:750ms">
+  <text x="24" y="187" class="l">🤝  Contributed to</text>
+  <text x="326" y="187" class="v" text-anchor="end">5</text>
+</g>
+</svg>

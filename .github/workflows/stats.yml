@@ -1,14 +1,17 @@
-name: Generate snake animation
+name: Generate stats cards
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "0 */12 * * *"
+  schedule: # execute every 6 hours
+    - cron: "17 */6 * * *"
 
   workflow_dispatch:
 
   push:
     branches:
       - main
+    paths:
+      - scripts/generate-stats.mjs
+      - .github/workflows/stats.yml
 
 jobs:
   generate:
@@ -21,13 +24,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: generate snake.svg
-        uses: Platane/snk@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          github_user_name: manavkhadka0
-          outputs: |
-            output/snake.svg
-            output/snake-dark.svg?palette=github-dark
+          node-version: 20
+
+      - name: Generate stats SVGs
+        run: node scripts/generate-stats.mjs manavkhadka0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push
         run: |
@@ -37,7 +42,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update snake animation [skip ci]"
+            git commit -m "Update stats cards [skip ci]"
             git pull --rebase origin main
             git push
           fi

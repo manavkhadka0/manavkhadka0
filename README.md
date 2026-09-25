@@ -54,23 +54,16 @@ const manav = {
 ### `> git log --stats`
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=manavkhadka0&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A277FF&icon_color=61FFCA&text_color=C9D1D9&rank_icon=github" alt="GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manavkhadka0&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A277FF&text_color=C9D1D9" alt="Top Languages" />
+  <img height="200" src="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/main/output/stats.svg" alt="GitHub Stats" />
+  <img height="200" src="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/main/output/top-langs.svg" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=manavkhadka0&theme=tokyonight&hide_border=true&background=0D1117&ring=A277FF&fire=FF6BCB&currStreakLabel=61FFCA&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/main/output/streak.svg" alt="Contribution Streak" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=manavkhadka0&bg_color=0D1117&color=A277FF&line=61FFCA&point=FFFFFF&area=true&area_color=302B63&hide_border=true&custom_title=Commit%20Activity%20%E2%80%94%20last%2030%20days" alt="Activity Graph" />
-</div>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░ TROPHIES ░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-### `> ./achievements --unlock`
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=manavkhadka0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="Trophies" />
+  <img width="100%" src="https://raw.githubusercontent.com/manavkhadka0/manavkhadka0/main/output/activity.svg" alt="Commit Activity - last 30 days" />
 </div>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░ ANIMATIONS ░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->

@@ -11,6 +11,8 @@ const USER = process.argv[2] || "manavkhadka0";
 const MOCK = process.argv.includes("--mock");
 const TOKEN = process.env.GITHUB_TOKEN;
 const OUT = "output";
+// Notebook JSON inflates byte counts and hides the real stack
+const IGNORED_LANGS = new Set(["Jupyter Notebook"]);
 
 const T = {
   bg: "#0D1117",
@@ -92,6 +94,7 @@ async function fetchData() {
   const langs = {};
   for (const r of repos)
     for (const e of r.languages.edges) {
+      if (IGNORED_LANGS.has(e.node.name)) continue;
       langs[e.node.name] ??= { size: 0, color: e.node.color || T.muted };
       langs[e.node.name].size += e.size;
     }
@@ -105,7 +108,7 @@ async function fetchData() {
     contributedTo: u.repositoriesContributedTo.totalCount,
     followers: u.followers.totalCount,
     langs,
-    days: dedupeDays(days),
+    days: dedupeDays(days).filter((d) => d.date >= u.createdAt.slice(0, 10)),
   };
 }
 
@@ -187,7 +190,7 @@ function statsCard(d) {
 function langsCard(d) {
   const entries = Object.entries(d.langs).sort((a, b) => b[1].size - a[1].size);
   const total = entries.reduce((s, [, v]) => s + v.size, 0) || 1;
-  const top = entries.slice(0, 8);
+  const top = entries.filter(([, v]) => v.size / total >= 0.005).slice(0, 8);
   const W = 302;
   let x = 24;
   const bar = top

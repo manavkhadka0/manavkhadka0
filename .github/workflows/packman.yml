@@ -2,7 +2,7 @@ name: Generate pacman animation
 
 on:
   schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+    - cron: "0 */12 * * *"
 
   workflow_dispatch:
 
@@ -35,8 +35,12 @@ jobs:
           elif [ -f dist/pacman-contribution-graph.svg ]; then
             mv dist/pacman-contribution-graph.svg output/pacman-contribution-graph.svg
           fi
-          # Create dark version (copy for now, action may generate it later)
-          if [ -f output/pacman-contribution-graph.svg ]; then
+          # Use the generated dark variant when available, else fall back to the light one
+          if [ -f dist/pacman-contribution-graph-dark.svg ]; then
+            mv dist/pacman-contribution-graph-dark.svg output/pacman-contribution-graph-dark.svg
+          elif [ -f pacman-contribution-graph-dark.svg ]; then
+            mv pacman-contribution-graph-dark.svg output/pacman-contribution-graph-dark.svg
+          elif [ -f output/pacman-contribution-graph.svg ]; then
             cp output/pacman-contribution-graph.svg output/pacman-contribution-graph-dark.svg
           fi
 

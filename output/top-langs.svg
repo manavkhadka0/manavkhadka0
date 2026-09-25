@@ -15,7 +15,7 @@
 <circle cx="20" cy="20" r="5" fill="#FF5F56"/><circle cx="36" cy="20" r="5" fill="#FFBD2E"/><circle cx="52" cy="20" r="5" fill="#27C93F"/>
 <text x="70" y="25" class="t">$ cloc --by-lang</text>
 <clipPath id="bc"><rect x="24" y="46" width="302" height="8" rx="4"/></clipPath>
-<g clip-path="url(#bc)"><g style="transform-origin:24px 50px;animation:grow 1s ease-out"><rect x="24.0" y="46" width="156.1" height="8" fill="#3178c6"/><rect x="180.1" y="46" width="73.4" height="8" fill="#663399"/><rect x="253.5" y="46" width="50.9" height="8" fill="#f1e05a"/><rect x="304.4" y="46" width="14.5" height="8" fill="#3572A5"/><rect x="318.9" y="46" width="5.6" height="8" fill="#e34c26"/></g></g>
+<g clip-path="url(#bc)"><g style="transform-origin:24px 50px;animation:grow 1s ease-out"><rect x="24.0" y="46" width="156.2" height="8" fill="#3178c6"/><rect x="180.2" y="46" width="73.4" height="8" fill="#663399"/><rect x="253.6" y="46" width="50.9" height="8" fill="#f1e05a"/><rect x="304.4" y="46" width="14.5" height="8" fill="#3572A5"/><rect x="318.9" y="46" width="5.6" height="8" fill="#e34c26"/></g></g>
 <g class="fade" style="animation-delay:0ms">
   <circle cx="29" cy="86" r="5" fill="#3178c6"/>
   <text x="40" y="90" class="l">TypeScript <tspan class="m">51.7%</tspan></text>
@@ -26,7 +26,7 @@
 </g>
 <g class="fade" style="animation-delay:200ms">
   <circle cx="29" cy="118" r="5" fill="#f1e05a"/>
-  <text x="40" y="122" class="l">JavaScript <tspan class="m">16.9%</tspan></text>
+  <text x="40" y="122" class="l">JavaScript <tspan class="m">16.8%</tspan></text>
 </g>
 <g class="fade" style="animation-delay:300ms">
   <circle cx="189" cy="118" r="5" fill="#3572A5"/>

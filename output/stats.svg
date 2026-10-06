@@ -16,7 +16,7 @@
 <text x="70" y="25" class="t">$ git stats --all</text>
 <g class="fade" style="animation-delay:0ms">
   <text x="24" y="62" class="l">⭐  Stars earned</text>
-  <text x="326" y="62" class="v" text-anchor="end">8</text>
+  <text x="326" y="62" class="v" text-anchor="end">7</text>
 </g>
 <g class="fade" style="animation-delay:150ms">
   <text x="24" y="87" class="l">🔥  Total commits</text>

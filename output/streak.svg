@@ -28,9 +28,9 @@
 <g class="fade" style="animation-delay:270ms">
   <circle cx="270" cy="101" r="38" fill="none" stroke="#A277FF" stroke-width="4" stroke-dasharray="239" stroke-dashoffset="239" style="animation:draw 1.2s ease-out forwards"/>
   <text x="270" y="58" text-anchor="middle" style="font-size:18px;animation:pulse 1.6s ease-in-out infinite">🔥</text>
-  <text x="270" y="112" text-anchor="middle" style="fill:#FF6BCB;font-size:30px;font-weight:700">2</text>
+  <text x="270" y="112" text-anchor="middle" style="fill:#FF6BCB;font-size:30px;font-weight:700">3</text>
   <text x="270" y="150" text-anchor="middle" class="l">Current streak</text>
-  <text x="270" y="170" text-anchor="middle" class="m">Oct 5 - Oct 6, 2026</text>
+  <text x="270" y="170" text-anchor="middle" class="m">Oct 5 - Oct 7, 2026</text>
 </g>
 
 <g class="fade" style="animation-delay:450ms">
